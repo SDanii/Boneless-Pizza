@@ -1,3 +1,4 @@
+
 ﻿namespace JoesAutomotiveImprovedUgly
 {
     partial class joesAutomotiveMain
@@ -311,3 +312,4 @@
     }
 }
 
+ master

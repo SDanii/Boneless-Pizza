@@ -1,3 +1,4 @@
+
 ﻿namespace JoesAutomotiveImprovedUgly
 {
     partial class Vehicle
@@ -248,4 +249,5 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button saveButton;
     }
+ master
 }

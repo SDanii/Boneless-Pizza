@@ -1,3 +1,4 @@
+
 ﻿namespace JoesAutomotiveImprovedUgly
 {
     partial class Parts
@@ -38,6 +39,10 @@
             this.tempListBox = new System.Windows.Forms.ListBox();
             this.homeButton2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.txtBoxAvaliable = new System.Windows.Forms.TextBox();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBoxSearch
@@ -50,11 +55,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(105, 26);
+            this.label1.Location = new System.Drawing.Point(75, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.Size = new System.Drawing.Size(71, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Search:";
+            this.label1.Text = "Search Parts:";
             // 
             // listBoxPartAva
             // 
@@ -88,6 +93,7 @@
             this.addButton2.TabIndex = 5;
             this.addButton2.Text = "Add";
             this.addButton2.UseVisualStyleBackColor = true;
+            this.addButton2.Click += new System.EventHandler(this.addButton2_Click);
             // 
             // label3
             // 
@@ -108,7 +114,7 @@
             // 
             // homeButton2
             // 
-            this.homeButton2.Location = new System.Drawing.Point(167, 278);
+            this.homeButton2.Location = new System.Drawing.Point(167, 315);
             this.homeButton2.Name = "homeButton2";
             this.homeButton2.Size = new System.Drawing.Size(85, 28);
             this.homeButton2.TabIndex = 8;
@@ -125,11 +131,51 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Recent Purchases:";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(52, 280);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(97, 13);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Add Avaliable Part:";
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(262, 273);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(69, 27);
+            this.btnAdd.TabIndex = 11;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // txtBoxAvaliable
+            // 
+            this.txtBoxAvaliable.Location = new System.Drawing.Point(156, 277);
+            this.txtBoxAvaliable.Name = "txtBoxAvaliable";
+            this.txtBoxAvaliable.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxAvaliable.TabIndex = 10;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(258, 23);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(58, 20);
+            this.btnSearch.TabIndex = 13;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
             // Parts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 355);
+            this.ClientSize = new System.Drawing.Size(386, 355);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.txtBoxAvaliable);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.homeButton2);
             this.Controls.Add(this.tempListBox);
@@ -159,5 +205,10 @@
         private System.Windows.Forms.ListBox tempListBox;
         private System.Windows.Forms.Button homeButton2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.TextBox txtBoxAvaliable;
+        private System.Windows.Forms.Button btnSearch;
     }
+ master
 }

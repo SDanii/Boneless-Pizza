@@ -1,3 +1,4 @@
+
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,7 +20,7 @@ namespace JoesAutomotiveImprovedUgly
 
         private void addButton3_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
         }
 
         private void homeButton3_Click(object sender, EventArgs e)
@@ -28,3 +29,4 @@ namespace JoesAutomotiveImprovedUgly
         }
     }
 }
+master

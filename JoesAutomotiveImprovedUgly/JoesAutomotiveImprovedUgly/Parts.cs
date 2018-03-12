@@ -1,3 +1,4 @@
+
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,5 +22,34 @@ namespace JoesAutomotiveImprovedUgly
         {
             this.Close();
         }
+
+        private void addButton2_Click(object sender, EventArgs e)
+        {
+            tempListBox.Items.Add(txtBoxRecent.Text);
+            txtBoxRecent.Clear();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            listBoxPartAva.Items.Add(txtBoxAvaliable.Text);
+            txtBoxAvaliable.Clear();
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            string search = txtBoxSearch.Text;
+            foreach(var item in listBoxPartAva.Items)
+            {
+                if (item.ToString() == search)
+                {
+                    MessageBox.Show("Item is avaliable.");
+                }
+                else 
+                {
+                    
+                }
+            }
+        }
     }
 }
+ master
