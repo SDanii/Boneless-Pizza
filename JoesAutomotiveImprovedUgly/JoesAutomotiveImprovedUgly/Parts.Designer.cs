@@ -1,3 +1,4 @@
+
 ﻿namespace JoesAutomotiveImprovedUgly
 {
     partial class Parts
@@ -209,4 +210,5 @@
         private System.Windows.Forms.TextBox txtBoxAvaliable;
         private System.Windows.Forms.Button btnSearch;
     }
+ master
 }

@@ -1,3 +1,4 @@
+
 ﻿namespace JoesAutomotiveImprovedUgly
 {
     partial class Invoice
@@ -128,4 +129,5 @@
         private System.Windows.Forms.Button homeButton3;
         private System.Windows.Forms.Button Save;
     }
+ master
 }
